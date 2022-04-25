@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Hareubang Talk</title>
+  </head>
+
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>16:22</span>
+      </div>
+      <div class="status-bar__column">
+        <span>99%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Hareubang Talk</h1>
+
+      <img src="images/logpage.JPG" class="welcome-header__img" />
+
+      <p class="welcome-header__text">
+        If you have a Hareubang Acount, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
+      <input name="" type="submit" value="Log In" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+    <div id="no-mobile">
+      <img src="images/screenlimit.gif" />
+      <span>Your screen is too big</span>
+    </div>
+    <div id="no-portrait">
+      <img src="images/screenlimit.gif" />
+      <span>Your screen should be landscape</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
